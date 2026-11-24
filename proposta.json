@@ -1,0 +1,266 @@
+{
+  "slug": "paula-palma",
+  "negocio": {
+    "nome": "Instituto Dra. Paula Palma",
+    "whatsapp": "554333670700",
+    "telefone": "(43) 3367-0700",
+    "funcionamento": {
+      "seg": "09:00-20:30",
+      "ter": "08:00-19:00",
+      "qua": "09:00-20:30",
+      "qui": "08:00-19:00",
+      "sex": "09:00-20:30",
+      "sab": "08:00-16:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Centro · Londrina",
+        "endereco": "R. Belo Horizonte, 1215 – Centro, Londrina – PR, 86020-061",
+        "telefone": "(43) 3367-0700",
+        "horario": "Seg, qua e sex das 9h às 20h30 · ter e qui das 8h às 19h · sáb das 8h às 16h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#2B2520",
+    "brand2": "#17130F",
+    "ink": "#211C18",
+    "bg": "#FAF7F2",
+    "pulse": "#C9A45C",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Emagrecimento",
+            "href": "#protocolo"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Emagrecimento e estética · Centro de Londrina",
+        "h1": "Emagrecer com alguém acompanhando cada etapa",
+        "lead": "No Instituto da Dra. Paula Palma, o protocolo de emagrecimento começa com endocrinologista e segue com acompanhamento farmacêutico. Na mesma casa, estética facial, corporal e íntima.",
+        "cta": "Conversar pelo WhatsApp",
+        "ctaSecundario": "Como funciona o protocolo",
+        "ctaSecundarioHref": "#protocolo",
+        "imagem": "midia/paula.jpg",
+        "imagemAlt": "Paula Palma sentada à mesa de trabalho, de blusa preta, com janela clara ao fundo",
+        "tarja": [
+          "4,5 no Google, 109 avaliações",
+          "Indicação com endocrinologista",
+          "Farmacêutica em todas as etapas",
+          "Aberto aos sábados até as 16h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Emagrecimento com acompanhamento",
+          "Toxina botulínica",
+          "Preenchimento",
+          "Bioestimulador de colágeno",
+          "Estética corporal",
+          "Saúde íntima"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Por que existe o Instituto",
+        "texto": [
+          "A Paula Palma passou pelas dietas da moda, pelos shakes e pelos remédios que prometiam tudo. Quando finalmente perdeu mais de 20 kg, entendeu que não tinha faltado força de vontade: tinha faltado tratamento e acompanhamento.",
+          "O Instituto, na Rua Belo Horizonte, foi montado em cima dessa ideia. Quem chega para emagrecer passa por avaliação médica e tem uma farmacêutica junto no caminho. Quem chega para a estética encontra a mesma conversa franca antes de qualquer agulha."
+        ],
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção do Instituto com parede preta, flor de lótus dourada e o nome Dra. Paula Palma"
+      }
+    },
+    {
+      "custom": "blocos/protocolo.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Tudo começa por uma avaliação. Os procedimentos estéticos têm avaliação gratuita, marcada pelo WhatsApp.",
+        "itens": [
+          {
+            "nome": "Emagrecimento com acompanhamento",
+            "descricao": "Protocolo com avaliação e indicação de endocrinologista e acompanhamento farmacêutico do início à manutenção.",
+            "icone": "nutricao"
+          },
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão da testa e ao redor dos olhos, com retorno para conferir o resultado.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento",
+            "descricao": "Ácido hialurônico para lábios, olheiras e linhas de marionete, no volume combinado na avaliação.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Bioestimulador de colágeno",
+            "descricao": "Estimula a pele a produzir colágeno de novo, para firmeza que aparece aos poucos, ao longo dos meses.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Peeling e cuidados com a pele",
+            "descricao": "Esfoliação e renovação da pele do rosto, em sessões planejadas conforme o tipo de pele.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Saúde íntima",
+            "descricao": "Tratamentos íntimos femininos e masculinos, conduzidos com privacidade e conversa franca sobre o desconforto.",
+            "icone": "mulher"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Parou no meio do protocolo? Dá para voltar",
+        "lead": "A dúvida mais comum de quem emagrece não é como começar. É o que fazer quando a rotina atrapalha.",
+        "cta": "Falar com o Instituto",
+        "contato": "Instituto Paula Palma",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi, comecei o protocolo em agosto e parei quando viajei. Ainda dá para retomar?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Dá sim. Antes de recomeçar, a farmacêutica revê a sua dose com você."
+          },
+          {
+            "de": "clinica",
+            "texto": "Tenho horário na quarta às 18h ou no sábado de manhã. Qual fica melhor?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Sábado de manhã!"
+          },
+          {
+            "de": "clinica",
+            "texto": "Combinado: sábado às 9h. Traga o seu peso atual, se tiver."
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/avaliacoes.html"
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Uma clínica que também ensina",
+        "lead": "O Instituto forma outros profissionais de estética em cursos presenciais e mentorias. Quem atende aqui está acostumado a explicar o porquê de cada passo.",
+        "itens": [
+          {
+            "imagem": "midia/recepcao-paula.jpg",
+            "legenda": "Paula Palma na recepção do Instituto"
+          },
+          {
+            "imagem": "midia/aula-pratica.jpg",
+            "legenda": "Aula prática de um curso presencial"
+          },
+          {
+            "imagem": "midia/aula.jpg",
+            "legenda": "Sala de aula do Instituto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas frequentes",
+        "itens": [
+          {
+            "p": "Qualquer pessoa pode fazer o protocolo de emagrecimento?",
+            "r": "Não. O tratamento só começa depois de avaliação e indicação médica com endocrinologista. É nessa consulta que se decide se ele serve para você."
+          },
+          {
+            "p": "Quem acompanha durante o tratamento?",
+            "r": "Uma farmacêutica acompanha cada etapa: dose, efeitos colaterais e dúvidas. Você fala com a equipe pelo WhatsApp entre uma consulta e outra."
+          },
+          {
+            "p": "O que acontece se eu parar no meio?",
+            "r": "Quem interrompe por conta própria tende a recuperar o peso. Se algo mudou na sua rotina, avise a equipe antes de parar: muitas vezes dá para ajustar."
+          },
+          {
+            "p": "A avaliação dos procedimentos estéticos é paga?",
+            "r": "A avaliação de procedimentos é gratuita. Marque pelo WhatsApp e a equipe explica as opções antes de qualquer aplicação."
+          },
+          {
+            "p": "Atende aos sábados?",
+            "r": "Sim, das 8h às 16h. Durante a semana, segunda, quarta e sexta até as 20h30."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Centro de Londrina",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "vivo",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte o que você quer tratar e a equipe marca o primeiro horário, inclusive aos sábados.",
+        "cta": "Conversar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Resultados variam de pessoa para pessoa. Tratamento de emagrecimento somente com avaliação e indicação médica."
+      }
+    }
+  ]
+}

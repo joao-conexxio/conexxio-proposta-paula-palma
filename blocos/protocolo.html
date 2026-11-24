@@ -1,0 +1,65 @@
+<section class="blk-pro" id="protocolo">
+  <div class="wrap">
+    <div class="blk-pro__cab" data-reveal>
+      <p class="blk-pro__eyebrow">Emagrecimento com acompanhamento</p>
+      <h2 class="blk-pro__titulo">O protocolo não termina na primeira dose</h2>
+      <p class="blk-pro__lead" data-acende>Obesidade é doença crônica, e quem interrompe o tratamento por conta própria tende a recuperar o peso. Por isso o Instituto organiza o emagrecimento em etapas, com alguém olhando cada uma delas.</p>
+    </div>
+    <ol class="blk-pro__linha">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-pro__ico"><!--icone:estetoscopio--></span>
+        <span class="blk-pro__quando">Antes de começar</span>
+        <h3>Avaliação com endocrinologista</h3>
+        <p>O tratamento só começa com avaliação e indicação médica. Nem todo mundo tem a mesma indicação, e é aqui que isso se decide.</p>
+      </li>
+      <li data-reveal style="--d:90ms">
+        <span class="blk-pro__ico"><!--icone:comprimido--></span>
+        <span class="blk-pro__quando">Durante o protocolo</span>
+        <h3>Acompanhamento farmacêutico</h3>
+        <p>A farmacêutica do Instituto acompanha cada etapa: dose, efeitos colaterais e as dúvidas que aparecem no meio do caminho.</p>
+      </li>
+      <li data-reveal style="--d:180ms">
+        <span class="blk-pro__ico"><!--icone:conversa--></span>
+        <span class="blk-pro__quando">Quando algo muda</span>
+        <h3>Uma conversa antes de parar</h3>
+        <p>Viagem, enjoo, orçamento apertado. Antes de interromper, fale com a equipe: existe ajuste que evita perder o que já foi conquistado.</p>
+      </li>
+      <li data-reveal style="--d:270ms">
+        <span class="blk-pro__ico"><!--icone:check--></span>
+        <span class="blk-pro__quando">Depois da meta</span>
+        <h3>Manutenção</h3>
+        <p>Chegar ao peso é uma fase. Manter é outra, e também tem acompanhamento.</p>
+      </li>
+    </ol>
+    <div class="blk-pro__fecho" data-reveal>
+      <p class="blk-pro__num"><span data-count="2">2</span> toneladas</p>
+      <p class="blk-pro__rot">eliminadas pelos pacientes do Instituto, somadas. A própria Paula Palma perdeu mais de 20 kg e conta essa história no Instagram.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-pro{padding-block:var(--sp-section)}
+.blk-pro__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-pro__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-pro__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-pro__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-pro__linha{list-style:none;margin:0;padding:0 0 0 1.6rem;display:grid;gap:var(--sp-4);position:relative}
+.blk-pro__linha::before{content:"";position:absolute;left:.45rem;top:.4rem;bottom:.4rem;width:2px;background:linear-gradient(var(--pulse),color-mix(in srgb,var(--brand) 30%,transparent))}
+.blk-pro__linha li{position:relative;padding:var(--sp-3);border-radius:var(--radius);background:color-mix(in srgb,var(--pulse) 9%,var(--bg));border:1px solid color-mix(in srgb,var(--brand) 14%,transparent)}
+.blk-pro__linha li::before{content:"";position:absolute;left:calc(-1.6rem + .1rem);top:1.5rem;width:.8rem;height:.8rem;border-radius:50%;background:var(--pulse);box-shadow:0 0 0 4px var(--bg)}
+.blk-pro__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-pro__ico svg{width:100%;height:100%}
+.blk-pro__quando{display:block;margin-top:var(--sp-2);font-size:var(--t-label);letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+.blk-pro__linha h3{margin:.35rem 0 .4rem;font-family:var(--f-display);font-size:1.6rem;line-height:1.15;color:var(--ink)}
+.blk-pro__linha p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-pro__fecho{margin-top:var(--sp-5);padding:var(--sp-4);border-radius:var(--radius);background:var(--brand);color:var(--bg);display:grid;gap:var(--sp-2)}
+.blk-pro__num{margin:0;font-family:var(--f-display);font-size:clamp(3rem,12vw,5.5rem);line-height:1;color:var(--pulse)}
+.blk-pro__rot{margin:0;max-width:34rem;color:color-mix(in srgb,var(--bg) 85%,transparent)}
+@media (min-width:900px){
+  .blk-pro__linha{grid-template-columns:repeat(4,1fr);padding:2rem 0 0;gap:var(--sp-3)}
+  .blk-pro__linha::before{left:0;right:0;top:.4rem;bottom:auto;width:auto;height:2px;background:linear-gradient(90deg,var(--pulse),color-mix(in srgb,var(--brand) 30%,transparent))}
+  .blk-pro__linha li::before{left:1.5rem;top:calc(-2rem + .05rem)}
+  .blk-pro__fecho{grid-template-columns:auto 1fr;align-items:center;gap:var(--sp-5)}
+}
+</style>

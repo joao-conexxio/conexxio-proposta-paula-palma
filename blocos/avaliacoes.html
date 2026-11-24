@@ -1,0 +1,52 @@
+<section class="blk-av" id="avaliacoes">
+  <div class="wrap">
+    <div class="blk-av__cab" data-reveal>
+      <p class="blk-av__eyebrow">109 avaliações, nota 4,5</p>
+      <h2 class="blk-av__titulo">As palavras que mais se repetem no Google</h2>
+      <p class="blk-av__lead" data-acende>O Google agrupa as avaliações pelos termos que as pacientes mais usam. As que mais aparecem falam do lugar e de quem recebe a paciente na porta.</p>
+    </div>
+    <ul class="blk-av__lista">
+      <li class="blk-av__item" data-reveal style="--d:0ms;--w:100%">
+        <div class="blk-av__linha"><span class="blk-av__termo">clínica</span><span class="blk-av__n" data-count="22">22</span></div>
+        <span class="blk-av__barra"></span>
+        <p>"Clínica com ótimo atendimento desde a recepção até os procedimentos."</p>
+      </li>
+      <li class="blk-av__item" data-reveal style="--d:90ms;--w:68%">
+        <div class="blk-av__linha"><span class="blk-av__termo">recepção</span><span class="blk-av__n" data-count="15">15</span></div>
+        <span class="blk-av__barra"></span>
+        <p>"Gostaria de destacar o atendimento da Larissa, que é recepcionista. Educada, atenciosa e prestativa desde o primeiro contato."</p>
+      </li>
+      <li class="blk-av__item" data-reveal style="--d:180ms;--w:23%">
+        <div class="blk-av__linha"><span class="blk-av__termo">equipe</span><span class="blk-av__n" data-count="5">5</span></div>
+        <span class="blk-av__barra"></span>
+        <p>"A equipe é extremamente atenciosa e profissional, explica tudo com calma e deixa a gente super segura."</p>
+      </li>
+      <li class="blk-av__item" data-reveal style="--d:270ms;--w:14%">
+        <div class="blk-av__linha"><span class="blk-av__termo">atenção</span><span class="blk-av__n" data-count="3">3</span></div>
+        <span class="blk-av__barra"></span>
+        <p>"Lugar muito calmo, especialistas todas pacientes, me escutaram muito bem."</p>
+      </li>
+    </ul>
+    <p class="blk-av__nota" data-reveal>Contagem dos termos na ficha do Google do Instituto, novembro de 2026.</p>
+  </div>
+</section>
+
+<style>
+.blk-av{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 6%,var(--bg))}
+.blk-av__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-av__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-av__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-av__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-av__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-4)}
+.blk-av__item{padding:var(--sp-4);border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 14%,transparent)}
+.blk-av__linha{display:flex;align-items:baseline;justify-content:space-between;gap:var(--sp-2)}
+.blk-av__termo{font-family:var(--f-display);font-size:clamp(1.8rem,5vw,2.4rem);line-height:1;color:var(--ink)}
+.blk-av__n{font-family:var(--f-display);font-size:clamp(2.2rem,6vw,3rem);line-height:1;color:var(--brand)}
+.blk-av__barra{display:block;height:4px;margin:var(--sp-3) 0;border-radius:4px;background:color-mix(in srgb,var(--brand) 12%,transparent);position:relative;overflow:hidden}
+.blk-av__barra::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);background:linear-gradient(90deg,var(--brand),var(--pulse));border-radius:inherit}
+.blk-av__item p{margin:0;font-family:var(--f-display);font-style:italic;font-size:1.1rem;line-height:1.45;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-av__nota{margin:var(--sp-4) 0 0;font-size:var(--t-label);color:color-mix(in srgb,var(--ink) 55%,transparent)}
+@media (min-width:900px){
+  .blk-av__lista{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+</style>
